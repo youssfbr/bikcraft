@@ -179,3 +179,27 @@ p {
 .call p {
   margin-bottom: 20px;
 }
+
+/* Portfólio */
+
+.portfolio {
+  width: 100%;
+  background-color: #000000;
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+
+.portfolio .subtitulo::after {
+  background: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+  padding-top: 15px;
+}
+
+.portfolio .call p {
+  color: #ffffff;
+}
