@@ -23,4 +23,4 @@ O projeto consiste em um site institucional no segmento de **bicicletas personal
 
 Alisson José Martins Daher
 
-https://www.linkedin.com/in/alisson-jose/
+https://www.linkedin.com/in/youssf
