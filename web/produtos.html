@@ -2,15 +2,28 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bikcraft - Produtos</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/produtos.css">
-  <link rel="stylesheet" href="css/responsivo.css">
+  <meta charset="UTF-8" />
+  <title>Bikcraft - Conheça as linhas Passeio, Retrô e Esporte</title>
+  <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bikcraft - Conheça as linhas Passeio, Retrô e Esporte" />
+  <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Retrô e Esporte." />
+  <meta property="og:url" content="https://bikcraft-alisson.000webhostapp.com/produtos.html" />
+  <meta property="og:image" content="https://bikcraft-alisson.000webhostapp.com/img/og-image.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="shortcut icon" href="favicon.ico" />
+  <!--
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/produtos.css" />
+  <link rel="stylesheet" href="css/responsivo.css" />
+-->
+  <link rel="stylesheet" href="css/style.css" />
   <script>document.documentElement.classList.add("js");</script>
 </head>
 
@@ -43,8 +56,8 @@
       <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
       <h2>Passeio</h2>
     </div>
-    <div class="grid-5 produto_icone"><img src="img/produtos/passeio.svg" alt=""></div>
-    <div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt=""></div>
+    <div class="grid-5 produto_icone"><img src="img/produtos/passeio.svg" alt="Icone Passeio"></div>
+    <div class="grid-8"><img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio"></div>
     <div class="grid-8 produto_info">
       <p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na fórmula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
       <ul>
@@ -61,8 +74,8 @@
       <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
       <h2>Esporte</h2>
     </div>
-    <div class="grid-5 produto_icone"><img src="img/produtos/esporte.svg" alt=""></div>
-    <div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt=""></div>
+    <div class="grid-5 produto_icone"><img src="img/produtos/esporte.svg" alt="Icone Esporte"></div>
+    <div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte"></div>
     <div class="grid-8 produto_info">
       <p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na fórmula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
       <ul>
@@ -79,8 +92,8 @@
       <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retrô">
       <h2>Retrô</h2>
     </div>
-    <div class="grid-5 produto_icone"><img src="img/produtos/retro.svg" alt=""></div>
-    <div class="grid-8"><img src="img/produtos/bikcraft-retro-2.jpg" alt=""></div>
+    <div class="grid-5 produto_icone"><img src="img/produtos/retro.svg" alt="Icone Retrô"></div>
+    <div class="grid-8"><img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retrô"></div>
     <div class="grid-8 produto_info">
       <p>No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na fórmula da gestão inovadora da qual fazemos parte inovadora da qual fazemos parte.</p>
       <ul>
@@ -101,12 +114,12 @@
         <label for="email">E-mail</label>
         <input type="email" id="email" name="email" required />
         <label for="telefone">Telefone</label>
-        <input type="telefone" id="telefone" name="telefone" />
+        <input type="text" id="telefone" name="telefone" />
 
-        <label for="" class="nao-aparece">Se você não é um robô, deixe em branco.</label>
-        <input type="text" class="nao-aparece" name="leaveblank">
-        <label for="" class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+        <label for="leaveblank" class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank" id="leaveblank">
+        <label for="dontchange" class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" id="dontchange" value="http://">
 
         <label for="mensagem">Mensagem</label>
         <textarea name="mensagem" id="mensagem" required></textarea>
@@ -131,12 +144,12 @@
     </div>
   </section>
 
-  <section class="quebra">
+  <div class="quebra">
     <blockquote class="quote-externo container">
       <p>"o verdadeiro sentido da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana."</p>
       <cite>WILLIAM MORRIS</cite>
     </blockquote>
-  </section>
+  </div>
 
   <footer>
     <div class="footer">
@@ -159,9 +172,9 @@
         <div class="grid-4 footer_redes">
           <h3>Redes Sociais</h3>
           <ul>
-            <li><a href="https://facebook.com/" target="_blank"><img src="img/redes-sociais/facebook.svg"></a></li>
-            <li><a href="https://instagram.com/" target="_blank"><img src="img/redes-sociais/instagram.svg"></a></li>
-            <li><a href="https://twitter.com/" target="_blank"><img src="img/redes-sociais/twitter.svg"></a></li>
+            <li><a href="https://facebook.com/" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook Bikcraft"></a></li>
+            <li><a href="https://instagram.com/" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram Bikcraft"></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter Bikcraft"></a></li>
           </ul>
         </div>
 

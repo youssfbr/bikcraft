@@ -10,7 +10,7 @@ use PHPMailer\PHPMailer\Exception;
   
 // Mudar Aqui o e-mail
 $email_envio = "contato.bikcraft.alisson@gmail.com"; // E-mail do site (ex: contato@seusite.com)
-$email_pass = "ef70c95f"; // Senha do e-mail
+$email_pass = "**************"; // Senha do e-mail
 
 $site_name = "Bikcraft"; // Nome do Site
 $site_url = "www.bikcraft.com"; // URL do Site
